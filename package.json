@@ -1,0 +1,22 @@
+{
+  "name": "01lab",
+  "version": "1.0.0",
+  "description": "nodeEcosystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xochil73/01lab.git"
+  },
+  "author": "Xochil Squaglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xochil73/01lab/issues"
+  },
+  "homepage": "https://github.com/xochil73/01lab#readme",
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
