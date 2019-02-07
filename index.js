@@ -1,14 +1,11 @@
 'use strict';
 
-const pol = require('./pol.js');
-const http = require('http');
 
-const requestHandler = (req,res) => {
-    res.setHeader('Content-Type', 'text/html');
-    res.statusCode = 200;
-    res.write( pol.isAlive().toString() );
-    res.end();
-};
+const greet = require('./lib/greet');
+const arithmetic = require('arithmetic');
+const faker = require('faker');
 
-const app = http.createServer(requestHandler);
-app.listen(process.env.PORT, () => console.log('server IS up') );
+let randomArray = [faker.random.number(), faker.random.number()];
+
+
+console.log(greet.sayHello(faker.name.firstName()));
