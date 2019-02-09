@@ -2,8 +2,9 @@
 
 
 const greet = require('./lib/greet');
-const arithmetic = require('arithmetic');
+const arithmetic = require('./lib/arithmetic');
 const faker = require('faker');
+
 
 let randomArray = [faker.random.number(), faker.random.number()];
 
