@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/xochil73/01lab#readme",
   "devDependencies": {
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "arithmetic": "^1.0.1",
+    "greet": "^1.0.0"
   }
 }
