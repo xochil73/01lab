@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/xochil73/01lab)
-* [travis](https://travis-ci.org/xochil73/01lab)
+* [![Build Status](https://travis-ci.org/xochil73/01lab.svg?branch=master)](https://travis-ci.org/xochil73/01lab)
 
 
 ### Modules
